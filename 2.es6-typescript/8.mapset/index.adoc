@@ -71,7 +71,7 @@ obj.hasOwnProperty("test");
 [source,typescript]
 ----
 let base = {__proto__:1,b:2};
-for (prop in obj) console.log(prop)
+for (prop in base) console.log(prop)
 // b
 ----
 
